@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="75dp"
         android:layout_marginTop="100dp"
+        android:layout_marginBottom=""
 
 
         app:srcCompat="@drawable/index" />
@@ -61,7 +62,10 @@
             android:layout_height="wrap_content"
             android:text="@string/sign"
             android:textColor="@android:color/white"
-            style="@style/up"/>
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="55"
+
+            />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 <androidx.appcompat.widget.LinearLayoutCompat
@@ -72,13 +76,11 @@
         android:layout_height="wrap_content"
         android:text="@string/forg"
         android:textColor="@android:color/white"
-        style="@style/sign"/>
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+     />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/index" />
+  />
 </androidx.appcompat.widget.LinearLayoutCompat>
