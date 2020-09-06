@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3b5998"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+
+
+        app:srcCompat="@drawable/index" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+    style="@style/me"
+        android:text="@string/email"/>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/pass"
+     android:textColor="@android:color/darker_gray"
+     style="@style/you">
+
+ </EditText>
+</androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:text="@string/log"
+         android:background="@android:color/darker_gray"
+         android:textColor="@android:color/white"
+        style="@style/we"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign"
+            android:textColor="@android:color/white"
+            style="@style/up"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forg"
+        android:textColor="@android:color/white"
+        style="@style/sign"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/index" />
+</androidx.appcompat.widget.LinearLayoutCompat>
