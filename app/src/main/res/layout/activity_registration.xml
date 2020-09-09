@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="38dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/sammy"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+
+            android:textSize="30dp"
+            android:textColor="#0C036E"
+
+           android:text="@string/name"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:textSize="24dp"
+            android:textColor="#0C036E"
+            android:text="@string/sur"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+
+            android:textSize="30dp"
+            android:textColor="#0C036E"
+            android:text="@string/phone"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <EditText
+           android:id="@+id/password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="29dp"
+
+           android:textSize="30dp"
+           android:textColor="#0C036E"
+           android:text="@string/pas"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/register"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30dp"
+
+          android:textSize="30dp"
+          android:textColor="#0C036E"
+
+          android:text="@string/reg"/>
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="130dp"
+
+            android:textSize="30dp"
+
+            android:textColor="#0C036E"
+            android:text="@string/clear"/>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:id="@+id/registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="30dp"
+        android:textColor="#0C036E"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:text="@string/Regist"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

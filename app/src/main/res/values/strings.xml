@@ -6,4 +6,15 @@
     <string name="sign">Sign Up for Facebook</string>
     <string name="forg">Forgot Password?</string>
 
+
+
+    <string name="sammy">UNIZIK</string>
+    <string name="name">email</string>
+    <string name="sur">Surname</string>
+    <string name="phone">phone</string>
+    <string name="pas">Password</string>
+    <string name="reg">Register</string>
+    <string name="clear">Clear</string>
+    <string name="Regist">Registered</string>
+
 </resources>
